@@ -1,0 +1,21 @@
+running egg_info
+writing ../build/robile_autonomous/robile_autonomous.egg-info/PKG-INFO
+writing dependency_links to ../build/robile_autonomous/robile_autonomous.egg-info/dependency_links.txt
+writing entry points to ../build/robile_autonomous/robile_autonomous.egg-info/entry_points.txt
+writing requirements to ../build/robile_autonomous/robile_autonomous.egg-info/requires.txt
+writing top-level names to ../build/robile_autonomous/robile_autonomous.egg-info/top_level.txt
+reading manifest file '../build/robile_autonomous/robile_autonomous.egg-info/SOURCES.txt'
+writing manifest file '../build/robile_autonomous/robile_autonomous.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/robile_autonomous/robile_autonomous.egg-info to /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous-0.0.0-py3.10.egg-info
+running install_scripts
+Installing A_star_planner script to /home/khizer/amr_project/install/robile_autonomous/lib/robile_autonomous
+Installing navigation_controller script to /home/khizer/amr_project/install/robile_autonomous/lib/robile_autonomous
+Installing potential_field_planner script to /home/khizer/amr_project/install/robile_autonomous/lib/robile_autonomous
+writing list of installed files to '/home/khizer/amr_project/build/robile_autonomous/install.log'

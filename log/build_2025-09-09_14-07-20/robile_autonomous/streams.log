@@ -1,0 +1,54 @@
+[1.078s] Invoking command in '/home/khizer/amr_project/robile_autonomous': PYTHONPATH=/home/khizer/amr_project/build/robile_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robile_autonomous build --build-base /home/khizer/amr_project/build/robile_autonomous/build install --record /home/khizer/amr_project/build/robile_autonomous/install.log --single-version-externally-managed install_data
+[1.266s] running egg_info
+[1.266s] creating ../build/robile_autonomous/robile_autonomous.egg-info
+[1.266s] writing ../build/robile_autonomous/robile_autonomous.egg-info/PKG-INFO
+[1.267s] writing dependency_links to ../build/robile_autonomous/robile_autonomous.egg-info/dependency_links.txt
+[1.267s] writing entry points to ../build/robile_autonomous/robile_autonomous.egg-info/entry_points.txt
+[1.267s] writing requirements to ../build/robile_autonomous/robile_autonomous.egg-info/requires.txt
+[1.267s] writing top-level names to ../build/robile_autonomous/robile_autonomous.egg-info/top_level.txt
+[1.268s] writing manifest file '../build/robile_autonomous/robile_autonomous.egg-info/SOURCES.txt'
+[1.268s] reading manifest file '../build/robile_autonomous/robile_autonomous.egg-info/SOURCES.txt'
+[1.269s] writing manifest file '../build/robile_autonomous/robile_autonomous.egg-info/SOURCES.txt'
+[1.270s] running build
+[1.270s] running build_py
+[1.270s] creating /home/khizer/amr_project/build/robile_autonomous/build
+[1.270s] creating /home/khizer/amr_project/build/robile_autonomous/build/lib
+[1.270s] creating /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous
+[1.270s] copying robile_autonomous/__init__.py -> /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous
+[1.270s] copying robile_autonomous/A_star_planner.py -> /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous
+[1.270s] copying robile_autonomous/navigation_controller.py -> /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous
+[1.270s] copying robile_autonomous/A_star.py -> /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous
+[1.270s] copying robile_autonomous/potential_field_planner.py -> /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous
+[1.270s] running install
+[1.270s] running install_lib
+[1.271s] creating /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous
+[1.271s] copying /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous/__init__.py -> /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous
+[1.271s] copying /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous/A_star_planner.py -> /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous
+[1.271s] copying /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous/navigation_controller.py -> /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous
+[1.271s] copying /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous/A_star.py -> /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous
+[1.271s] copying /home/khizer/amr_project/build/robile_autonomous/build/lib/robile_autonomous/potential_field_planner.py -> /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous
+[1.272s] byte-compiling /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous/__init__.py to __init__.cpython-310.pyc
+[1.272s] byte-compiling /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous/A_star_planner.py to A_star_planner.cpython-310.pyc
+[1.272s] byte-compiling /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous/navigation_controller.py to navigation_controller.cpython-310.pyc
+[1.273s] byte-compiling /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous/A_star.py to A_star.cpython-310.pyc
+[1.273s] byte-compiling /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous/potential_field_planner.py to potential_field_planner.cpython-310.pyc
+[1.274s] running install_data
+[1.274s] creating /home/khizer/amr_project/install/robile_autonomous/share/ament_index
+[1.274s] creating /home/khizer/amr_project/install/robile_autonomous/share/ament_index/resource_index
+[1.274s] creating /home/khizer/amr_project/install/robile_autonomous/share/ament_index/resource_index/packages
+[1.274s] copying resource/robile_autonomous -> /home/khizer/amr_project/install/robile_autonomous/share/ament_index/resource_index/packages
+[1.274s] copying package.xml -> /home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous
+[1.274s] creating /home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/config
+[1.274s] copying config/ekf.yaml -> /home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/config
+[1.274s] creating /home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/launch
+[1.274s] copying launch/slam_with_robile.launch.py -> /home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/launch
+[1.274s] copying launch/navigation.launch.py -> /home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/launch
+[1.274s] copying launch/slam.launch.py -> /home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/launch
+[1.274s] running install_egg_info
+[1.275s] Copying ../build/robile_autonomous/robile_autonomous.egg-info to /home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages/robile_autonomous-0.0.0-py3.10.egg-info
+[1.276s] running install_scripts
+[1.289s] Installing A_star_planner script to /home/khizer/amr_project/install/robile_autonomous/lib/robile_autonomous
+[1.289s] Installing navigation_controller script to /home/khizer/amr_project/install/robile_autonomous/lib/robile_autonomous
+[1.289s] Installing potential_field_planner script to /home/khizer/amr_project/install/robile_autonomous/lib/robile_autonomous
+[1.289s] writing list of installed files to '/home/khizer/amr_project/build/robile_autonomous/install.log'
+[1.309s] Invoked command in '/home/khizer/amr_project/robile_autonomous' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robile_autonomous build --build-base /home/khizer/amr_project/build/robile_autonomous/build install --record /home/khizer/amr_project/build/robile_autonomous/install.log --single-version-externally-managed install_data

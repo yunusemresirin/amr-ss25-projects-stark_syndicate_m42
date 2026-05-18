@@ -1,0 +1,103 @@
+[0.008s] Invoking command in '/home/khizer/amr_project/build/robile_navigation': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/khizer/amr_project/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/khizer/amr_project/install/robile_navigation
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.228s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.233s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.350s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.427s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.464s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.468s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.475s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.534s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.537s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.615s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.634s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.663s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.673s] -- Looking for pthread.h
+[0.732s] -- Looking for pthread.h - found
+[0.732s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.787s] -- Found Threads: TRUE  
+[0.824s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.825s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.842s] -- Found robile_interfaces: 0.0.0 (/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake)
+[0.853s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.963s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.964s] -- Added test 'lint_cmake' to check CMake code style
+[0.965s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.966s] -- Added test 'xmllint' to check XML markup files
+[0.967s] -- Configuring done
+[0.971s] -- Generating done
+[0.973s] -- Build files have been written to: /home/khizer/amr_project/build/robile_navigation
+[0.980s] Invoked command in '/home/khizer/amr_project/build/robile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/khizer/amr_project/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/khizer/amr_project/install/robile_navigation
+[0.981s] Invoking command in '/home/khizer/amr_project/build/robile_navigation': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_navigation -- -j12 -l12
+[1.028s] Built target ament_cmake_python_copy_robile_navigation
+[1.172s] running egg_info
+[1.172s] creating robile_navigation.egg-info
+[1.172s] writing robile_navigation.egg-info/PKG-INFO
+[1.172s] writing dependency_links to robile_navigation.egg-info/dependency_links.txt
+[1.173s] writing top-level names to robile_navigation.egg-info/top_level.txt
+[1.173s] writing manifest file 'robile_navigation.egg-info/SOURCES.txt'
+[1.174s] reading manifest file 'robile_navigation.egg-info/SOURCES.txt'
+[1.174s] writing manifest file 'robile_navigation.egg-info/SOURCES.txt'
+[1.192s] Built target ament_cmake_python_build_robile_navigation_egg
+[1.201s] Invoked command in '/home/khizer/amr_project/build/robile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_navigation -- -j12 -l12
+[1.202s] Invoking command in '/home/khizer/amr_project/build/robile_navigation': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_navigation
+[1.210s] -- Install configuration: ""
+[1.210s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/launch
+[1.210s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/launch/landmark_based_localisation.launch.py
+[1.210s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/launch/navigation.launch.py
+[1.210s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/launch/localization.launch.py
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/launch/online_async.launch.py
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/launch/robile_nav2_bringup.launch.py
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/config
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/config/nav2_params.yaml
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/config/robile_ros2_nav.rviz
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/config/smacPlannerLattice.json
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/config/amcl_config.yaml
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/config/robile_nav_params.yaml
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/config/mapper_params_online_async.yaml
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/maps
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/maps/closed_walls_map.pgm
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/maps/map.pgm
+[1.211s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/maps/map.yaml
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/maps/closed_walls_map.yaml
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/environment/pythonpath.sh
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/environment/pythonpath.dsv
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation
+[1.212s] -- Installing: /home/khizer/amr_project/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation/__init__.py
+[1.235s] Listing '/home/khizer/amr_project/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation'...
+[1.235s] Compiling '/home/khizer/amr_project/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation/__init__.py'...
+[1.238s] -- Installing: /home/khizer/amr_project/install/robile_navigation/lib/robile_navigation/robile_rfid_tag_finder.py
+[1.238s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/ament_index/resource_index/package_run_dependencies/robile_navigation
+[1.238s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/ament_index/resource_index/parent_prefix_path/robile_navigation
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/environment/ament_prefix_path.sh
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/environment/ament_prefix_path.dsv
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/environment/path.sh
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/environment/path.dsv
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/local_setup.bash
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/local_setup.sh
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/local_setup.zsh
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/local_setup.dsv
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.dsv
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/ament_index/resource_index/packages/robile_navigation
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/cmake/robile_navigationConfig.cmake
+[1.239s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/cmake/robile_navigationConfig-version.cmake
+[1.240s] -- Installing: /home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.xml
+[1.241s] Invoked command in '/home/khizer/amr_project/build/robile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_navigation

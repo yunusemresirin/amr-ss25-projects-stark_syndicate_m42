@@ -1,0 +1,5 @@
+[console_scripts]
+A_star_planner = robile_autonomous.A_star_planner:main
+navigation_controller = robile_autonomous.navigation_controller:main
+potential_field_planner = robile_autonomous.potential_field_planner:main
+

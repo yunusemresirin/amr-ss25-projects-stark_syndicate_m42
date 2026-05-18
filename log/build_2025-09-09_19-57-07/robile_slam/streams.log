@@ -1,0 +1,34 @@
+[1.080s] Invoking command in '/home/khizer/amr_project/robile_slam': PYTHONPATH=/home/khizer/amr_project/build/robile_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robile_slam build --build-base /home/khizer/amr_project/build/robile_slam/build install --record /home/khizer/amr_project/build/robile_slam/install.log --single-version-externally-managed install_data
+[1.243s] running egg_info
+[1.243s] writing ../build/robile_slam/robile_slam.egg-info/PKG-INFO
+[1.243s] writing dependency_links to ../build/robile_slam/robile_slam.egg-info/dependency_links.txt
+[1.244s] writing entry points to ../build/robile_slam/robile_slam.egg-info/entry_points.txt
+[1.244s] writing requirements to ../build/robile_slam/robile_slam.egg-info/requires.txt
+[1.244s] writing top-level names to ../build/robile_slam/robile_slam.egg-info/top_level.txt
+[1.246s] reading manifest file '../build/robile_slam/robile_slam.egg-info/SOURCES.txt'
+[1.247s] writing manifest file '../build/robile_slam/robile_slam.egg-info/SOURCES.txt'
+[1.247s] running build
+[1.247s] running build_py
+[1.247s] copying robile_slam/exploration_node.py -> /home/khizer/amr_project/build/robile_slam/build/lib/robile_slam
+[1.247s] copying robile_slam/updated_global_planner.py -> /home/khizer/amr_project/build/robile_slam/build/lib/robile_slam
+[1.247s] running install
+[1.248s] running install_lib
+[1.248s] copying /home/khizer/amr_project/build/robile_slam/build/lib/robile_slam/exploration_node.py -> /home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages/robile_slam
+[1.248s] copying /home/khizer/amr_project/build/robile_slam/build/lib/robile_slam/updated_global_planner.py -> /home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages/robile_slam
+[1.249s] byte-compiling /home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages/robile_slam/exploration_node.py to exploration_node.cpython-310.pyc
+[1.251s] byte-compiling /home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages/robile_slam/updated_global_planner.py to updated_global_planner.cpython-310.pyc
+[1.252s] running install_data
+[1.252s] running install_egg_info
+[1.253s] removing '/home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages/robile_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[1.254s] Copying ../build/robile_slam/robile_slam.egg-info to /home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages/robile_slam-0.0.0-py3.10.egg-info
+[1.255s] running install_scripts
+[1.267s] Installing exploration_node script to /home/khizer/amr_project/install/robile_slam/lib/robile_slam
+[1.267s] Installing global_planner_node script to /home/khizer/amr_project/install/robile_slam/lib/robile_slam
+[1.267s] Installing mcl script to /home/khizer/amr_project/install/robile_slam/lib/robile_slam
+[1.267s] Installing nav_stack script to /home/khizer/amr_project/install/robile_slam/lib/robile_slam
+[1.267s] Installing particle_filter_node script to /home/khizer/amr_project/install/robile_slam/lib/robile_slam
+[1.267s] Installing potential_field_node script to /home/khizer/amr_project/install/robile_slam/lib/robile_slam
+[1.267s] Installing updated_global_planner script to /home/khizer/amr_project/install/robile_slam/lib/robile_slam
+[1.268s] Installing waypoint_follower_node script to /home/khizer/amr_project/install/robile_slam/lib/robile_slam
+[1.268s] writing list of installed files to '/home/khizer/amr_project/build/robile_slam/install.log'
+[1.290s] Invoked command in '/home/khizer/amr_project/robile_slam' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robile_slam build --build-base /home/khizer/amr_project/build/robile_slam/build install --record /home/khizer/amr_project/build/robile_slam/install.log --single-version-externally-managed install_data

@@ -1,0 +1,55 @@
+# ekf.yaml
+# Configuration for robot_localization's Extended Kalman Filter node
+
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0 # Filter update frequency (Hz)
+    sensor_timeout: 0.1 # How long to wait for sensor data before warning (seconds)
+
+    # Coordinate frames
+    odom_frame: odom
+    base_link_frame: base_link
+    map_frame: map
+    
+    # Set to true for 2D robots (no Z-axis movement, no roll/pitch)
+    two_d_mode: true
+
+    # Publish the /tf transforms.
+    # If slam_toolbox is already publishing map->odom, and robot_state_publisher
+    # is publishing odom->base_link, you might set this to false to avoid conflicts.
+    # For now, let's assume slam_toolbox publishes map->odom, and gazebo handles odom->base_link.
+    # The EKF will then publish map->base_link.
+    publish_tf: true # Set to true if you want EKF to publish map->odom and odom->base_link transforms.
+                     # Be careful if other nodes are also publishing these.
+                     # A safer default might be false if slam_toolbox handles map->odom and
+                     # robot_state_publisher handles odom->base_link.
+                     # For this specific case, EKF will publish the map->base_link transform.
+
+    # Inputs for the EKF
+    # odom0: Input from wheel odometry (e.g., from Gazebo's differential_drive_controller)
+    # This should be a nav_msgs/msg/Odometry message.
+    odom0: /odom
+    odom0_config: [true, true, true, # x, y, z (position)
+                   false, false, false, # roll, pitch, yaw (orientation)
+                   true, true, true, # vx, vy, vz (linear velocity)
+                   false, false, false, # vroll, vpitch, vyaw (angular velocity)
+                   false, false, false] # ax, ay, az (linear acceleration)
+    odom0_queue_size: 10
+    odom0_nodelay: false # Set to true if you want the filter to process this data as soon as it arrives
+
+    # pose0: Input from an absolute pose source (e.g., from AMCL or SLAM Toolbox's pose estimate)
+    # The slam_toolbox typically publishes a map->odom transform.
+    # If slam_toolbox can be configured to publish a PoseStamped (e.g., /slam_pose), use that.
+    # For now, we'll rely on the EKF fusing the /odom topic and the map->odom TF.
+    # If you later configure slam_toolbox to publish a PoseStamped, you can add it here.
+    # pose0: /slam_pose
+    # pose0_config: [true, true, false, false, false, true, false, false, false, false, false, false, false, false, false]
+    # pose0_queue_size: 10
+    # pose0_nodelay: false
+
+    # Output topic for the filtered odometry (PoseWithCovarianceStamped)
+    # This topic will be remapped to /current_pose in the launch file.
+    publish_filtered_odom: true
+    
+    # Initial pose (optional)
+    # initial_pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0] # x, y, z, roll, pitch, yaw

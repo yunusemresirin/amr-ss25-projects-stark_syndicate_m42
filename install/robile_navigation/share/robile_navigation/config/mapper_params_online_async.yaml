@@ -1,0 +1,68 @@
+slam_toolbox:
+  ros__parameters: # Reference: http://wiki.ros.org/slam_karto
+
+    # Plugin params
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+
+    # ROS Parameters
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_footprint
+    scan_topic: /scan
+    # use_map_saver: true
+    # mode: mapping #mapping mode
+    mode : mapping #localization mode
+
+    debug_logging: false
+    throttle_scans: 1 # (default: 1) Process 1 out of every this many scans (set it to a higher number to skip more scans) 
+    transform_publish_period: 0.02 # (default: 0.05) How long (in seconds) between transform publications. To disable broadcasting transforms, set to 0.
+    map_update_interval: 5.0 # (default: 5.0) Time interval (in seconds) between map updates.
+    resolution: 0.05 # (default: 0.05) Resolution of the map (in metres per occupancy grid block)
+    max_laser_range: 5.0 # Maximum range for laser scans in meters, used for rastering images.
+    minimum_time_interval: 0.5 # Minimum time interval between scans to be used for loop closure.
+    transform_timeout: 0.2 # Time to wait for a transform to become available when updating the map.
+    tf_buffer_duration: 30.0 # Time that tf messages are kept in the buffer.
+    stack_size_to_use: 40000000 # The stack size (in bytes) used for serialization of large maps; program needs a larger stack size to serialize large maps
+    enable_interactive_mode: true 
+
+    # General Parameters
+    use_scan_matching: true # true # (default: true) Whether to use scan matching or not. Here scan matching might be used to align scans to the map, in other words to help keep localization accurate. Generally set to False in simulation, as odom and scan data are acurate and setting it to true leads to worse results.
+    use_scan_barycenter: true # (default: true) Use the barycenter of scan endpoints to define distances between scans.
+    minimum_travel_distance: 0.2 # (default: 0.2) Sets the minimum travel between scans. If a new scan's position is more than minimumTravelDistance from the previous scan, the mapper will use the data from the new scan.
+    minimum_travel_heading: 0.2 # (default 10 degrees in radians) Sets the minimum heading change between scans. If a new scan's heading is more than minimumTravelHeading from the previous scan, the mapper will use the data from the new scan.
+    scan_buffer_size: 40 # (default: 70) Sets the length of the scan chain stored for scan matching. scan_buffer_size should be set to approximately scan_buffer_maximum_scan_distance / minimum_travel_distance. The idea is to get an area approximately 20 meters long for scan matching. 
+    scan_buffer_maximum_scan_distance: 10.0 # (default: 20.0) Sets the maximum distance between the first and last scans in the scan chain stored for matching.
+    link_match_minimum_response_fine: 0.8 # (default: 0.8) Scans are linked only if the correlation response value is greater than this value.
+    link_scan_maximum_distance: 5.0 # (default:10.0) Sets the maximum distance between linked scans. Scans that are farther apart will not be linked regardless of the correlation response value.
+    loop_search_maximum_distance: 3.0 # (default: 4.0) Scans less than this distance from the current position will be considered for a match in loop closure.
+    do_loop_closing: true 
+    loop_match_minimum_chain_size: 10 # (default:10.0) When the loop closure detection finds a candidate it must be part of a large set of linked scans. If the chain of scans is less than this value, we do not attempt to close the loop.
+    loop_match_maximum_variance_coarse: 0.7 # (default: sqrt(0.4)) The co-variance values for a possible loop closure have to be less than this value to consider a viable solution. This applies to the coarse search.
+    loop_match_minimum_response_coarse: 0.8 # (default: 0.8) If response is larger than this, then initiate loop closure search at the coarse resolution.
+    loop_match_minimum_response_fine: 0.8 # (default: 0.8) If response is larger than this, then initiate loop closure search at the fine resolution.
+
+    # Correlation Parameters - Correlation Parameters
+    correlation_search_space_dimension: 0.5
+    correlation_search_space_resolution: 0.01
+    correlation_search_space_smear_deviation: 0.1 
+
+    # Correlation Parameters - Loop Closure Parameters
+    loop_search_space_dimension: 8.0
+    loop_search_space_resolution: 0.05
+    loop_search_space_smear_deviation: 0.03
+
+    # Scan Matcher Parameters
+    distance_variance_penalty: 0.5      
+    angle_variance_penalty: 1.0    
+
+    fine_search_angle_offset: 0.00349     
+    coarse_search_angle_offset: 0.349   
+    coarse_angle_resolution: 0.0349        
+    minimum_angle_penalty: 0.9
+    minimum_distance_penalty: 0.5
+    use_response_expansion: false

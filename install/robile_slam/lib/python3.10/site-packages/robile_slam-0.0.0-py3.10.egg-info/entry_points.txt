@@ -1,0 +1,10 @@
+[console_scripts]
+exploration_node = robile_slam.exploration_node:main
+global_planner_node = robile_slam.global_planner_node:main
+mcl = robile_slam.mcl:main
+nav_stack = robile_slam.navigation_stack:main
+particle_filter_node = robile_slam.monte_carlo_pf_node:main
+potential_field_node = robile_slam.potential_field_node:main
+updated_global_planner = robile_slam.updated_global_planner:main
+waypoint_follower_node = robile_slam.waypoint_follower_node:main
+

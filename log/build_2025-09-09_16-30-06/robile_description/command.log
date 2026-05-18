@@ -1,0 +1,4 @@
+Invoking command in '/home/khizer/amr_project/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_description -- -j12 -l12
+Invoked command in '/home/khizer/amr_project/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_description -- -j12 -l12
+Invoking command in '/home/khizer/amr_project/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_description
+Invoked command in '/home/khizer/amr_project/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_description

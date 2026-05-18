@@ -1,0 +1,21 @@
+[1.181s] Invoking command in '/home/khizer/amr_project/Robile/robile_demos/robile_reach_goal': PYTHONPATH=/home/khizer/amr_project/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_reach_goal build --build-base /home/khizer/amr_project/build/robile_reach_goal/build install --record /home/khizer/amr_project/build/robile_reach_goal/install.log --single-version-externally-managed install_data
+[1.359s] running egg_info
+[1.359s] writing ../../../build/robile_reach_goal/robile_reach_goal.egg-info/PKG-INFO
+[1.359s] writing dependency_links to ../../../build/robile_reach_goal/robile_reach_goal.egg-info/dependency_links.txt
+[1.360s] writing entry points to ../../../build/robile_reach_goal/robile_reach_goal.egg-info/entry_points.txt
+[1.360s] writing requirements to ../../../build/robile_reach_goal/robile_reach_goal.egg-info/requires.txt
+[1.360s] writing top-level names to ../../../build/robile_reach_goal/robile_reach_goal.egg-info/top_level.txt
+[1.361s] reading manifest file '../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+[1.362s] writing manifest file '../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+[1.362s] running build
+[1.363s] running build_py
+[1.363s] running install
+[1.363s] running install_lib
+[1.363s] running install_data
+[1.364s] running install_egg_info
+[1.365s] removing '/home/khizer/amr_project/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal-0.0.0-py3.10.egg-info' (and everything under it)
+[1.365s] Copying ../../../build/robile_reach_goal/robile_reach_goal.egg-info to /home/khizer/amr_project/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal-0.0.0-py3.10.egg-info
+[1.366s] running install_scripts
+[1.382s] Installing robile_reach_goal script to /home/khizer/amr_project/install/robile_reach_goal/lib/robile_reach_goal
+[1.383s] writing list of installed files to '/home/khizer/amr_project/build/robile_reach_goal/install.log'
+[1.410s] Invoked command in '/home/khizer/amr_project/Robile/robile_demos/robile_reach_goal' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_reach_goal build --build-base /home/khizer/amr_project/build/robile_reach_goal/build install --record /home/khizer/amr_project/build/robile_reach_goal/install.log --single-version-externally-managed install_data

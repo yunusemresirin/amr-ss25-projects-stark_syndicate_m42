@@ -1,0 +1,34 @@
+[1.052s] Invoking command in '/home/khizer/amr_project/Robile/robile_bringup': PYTHONPATH=/home/khizer/amr_project/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robile_bringup build --build-base /home/khizer/amr_project/build/robile_bringup/build install --record /home/khizer/amr_project/build/robile_bringup/install.log --single-version-externally-managed install_data
+[1.194s] running egg_info
+[1.195s] creating ../../build/robile_bringup/robile_bringup.egg-info
+[1.195s] writing ../../build/robile_bringup/robile_bringup.egg-info/PKG-INFO
+[1.195s] writing dependency_links to ../../build/robile_bringup/robile_bringup.egg-info/dependency_links.txt
+[1.195s] writing entry points to ../../build/robile_bringup/robile_bringup.egg-info/entry_points.txt
+[1.195s] writing requirements to ../../build/robile_bringup/robile_bringup.egg-info/requires.txt
+[1.195s] writing top-level names to ../../build/robile_bringup/robile_bringup.egg-info/top_level.txt
+[1.195s] writing manifest file '../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[1.196s] reading manifest file '../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[1.197s] writing manifest file '../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[1.198s] running build
+[1.198s] running build_py
+[1.198s] creating /home/khizer/amr_project/build/robile_bringup/build
+[1.198s] creating /home/khizer/amr_project/build/robile_bringup/build/lib
+[1.198s] creating /home/khizer/amr_project/build/robile_bringup/build/lib/robile_bringup
+[1.198s] copying robile_bringup/__init__.py -> /home/khizer/amr_project/build/robile_bringup/build/lib/robile_bringup
+[1.198s] running install
+[1.198s] running install_lib
+[1.198s] creating /home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages/robile_bringup
+[1.199s] copying /home/khizer/amr_project/build/robile_bringup/build/lib/robile_bringup/__init__.py -> /home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages/robile_bringup
+[1.199s] byte-compiling /home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages/robile_bringup/__init__.py to __init__.cpython-310.pyc
+[1.199s] running install_data
+[1.199s] creating /home/khizer/amr_project/install/robile_bringup/share/ament_index
+[1.199s] creating /home/khizer/amr_project/install/robile_bringup/share/ament_index/resource_index
+[1.199s] creating /home/khizer/amr_project/install/robile_bringup/share/ament_index/resource_index/packages
+[1.199s] copying resource/robile_bringup -> /home/khizer/amr_project/install/robile_bringup/share/ament_index/resource_index/packages
+[1.199s] copying package.xml -> /home/khizer/amr_project/install/robile_bringup/share/robile_bringup
+[1.199s] copying launch/robot.launch.py -> /home/khizer/amr_project/install/robile_bringup/share/robile_bringup
+[1.199s] running install_egg_info
+[1.201s] Copying ../../build/robile_bringup/robile_bringup.egg-info to /home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages/robile_bringup-0.0.0-py3.10.egg-info
+[1.201s] running install_scripts
+[1.216s] writing list of installed files to '/home/khizer/amr_project/build/robile_bringup/install.log'
+[1.248s] Invoked command in '/home/khizer/amr_project/Robile/robile_bringup' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robile_bringup build --build-base /home/khizer/amr_project/build/robile_bringup/build install --record /home/khizer/amr_project/build/robile_bringup/install.log --single-version-externally-managed install_data

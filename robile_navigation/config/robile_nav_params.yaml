@@ -1,0 +1,56 @@
+rfid_tag_finder:
+  ros__parameters:
+
+    # Frames
+    map_frame: map
+    odom_frame: odom
+    laser_link_frame: base_laser_front_link
+    real_base_link_frame: real_base_link
+    # Topics
+    scan_topic: scan
+    odom_topic: odom
+    cmd_vel_topic: cmd_vel
+    rfid_tag_poses_topic: rfid_tag_poses
+    initial_pose_topic: initialpose
+    real_base_link_pose_topic: real_base_link_pose
+    estimated_base_link_pose_topic: estimated_base_link_pose
+
+    # other parameters
+    laserscan_noise_stddev: 0.05
+    odom_noise_linear_stddev: 0.05
+    odom_noise_angular_stddev: 0.05   
+    
+    rfid_tags:
+      A: [1.0, 1.0]
+      B: [6.0, 1.0]
+      C: [3.0, -1.0]
+      D: [1.0, -3.0]
+      E: [4.0, -4.0]
+
+
+localisation_using_kalman:
+  ros__parameters:
+
+    # Frames
+    map_frame: map
+    odom_frame: odom
+    laser_link_frame: base_laser_front_link
+    real_base_link_frame: real_base_link
+    # Topics
+    scan_topic: scan
+    odom_topic: odom
+    rfid_tag_poses_topic: rfid_tag_poses
+    initial_pose_topic: initialpose
+    real_base_link_pose_topic: real_base_link_pose
+    estimated_base_link_pose_topic: estimated_base_link_pose
+
+    # other parameters
+    minimum_travel_distance: 0.1
+    minimum_travel_heading: 0.1
+
+    rfid_tags:
+      A: [1.0, 1.0]
+      B: [6.0, 1.0]
+      C: [3.0, -1.0]
+      D: [1.0, -3.0]
+      E: [4.0, -4.0]    

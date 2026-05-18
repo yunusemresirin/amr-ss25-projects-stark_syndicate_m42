@@ -1,0 +1,257 @@
+[0.024s] Invoking command in '/home/khizer/amr_project/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/khizer/amr_project/robile_interfaces -DCMAKE_INSTALL_PREFIX=/home/khizer/amr_project/install/robile_interfaces
+[0.623s] -- The C compiler identification is GNU 11.4.0
+[0.623s] -- The CXX compiler identification is GNU 11.4.0
+[0.623s] -- Detecting C compiler ABI info
+[0.623s] -- Detecting C compiler ABI info - done
+[0.623s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.624s] -- Detecting C compile features
+[0.624s] -- Detecting C compile features - done
+[0.624s] -- Detecting CXX compiler ABI info
+[0.624s] -- Detecting CXX compiler ABI info - done
+[0.624s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.624s] -- Detecting CXX compile features
+[0.624s] -- Detecting CXX compile features - done
+[0.624s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.624s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.624s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.624s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.624s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.624s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.624s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.624s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.685s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.217s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.219s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.247s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.247s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.248s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.248s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.267s] -- Found PythonExtra: .so  
+[1.316s] -- Configuring done
+[1.338s] -- Generating done
+[1.345s] -- Build files have been written to: /home/khizer/amr_project/build/robile_interfaces
+[1.351s] Invoked command in '/home/khizer/amr_project/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/khizer/amr_project/robile_interfaces -DCMAKE_INSTALL_PREFIX=/home/khizer/amr_project/install/robile_interfaces
+[1.353s] Invoking command in '/home/khizer/amr_project/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_interfaces -- -j12 -l12
+[1.391s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.604s] [  2%] Built target robile_interfaces__cpp
+[1.627s] [  2%] Built target ament_cmake_python_copy_robile_interfaces
+[1.636s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.800s] [  7%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robile_interfaces/msg/detail/position_labelled__type_support.cpp.o[0m
+[2.000s] [ 10%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robile_interfaces/msg/detail/position_labelled_array__type_support.cpp.o[0m
+[2.224s] [ 12%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.276s] [ 12%] Built target robile_interfaces__rosidl_typesupport_introspection_cpp
+[2.417s] running egg_info
+[2.417s] creating robile_interfaces.egg-info
+[2.417s] writing robile_interfaces.egg-info/PKG-INFO
+[2.417s] writing dependency_links to robile_interfaces.egg-info/dependency_links.txt
+[2.417s] writing top-level names to robile_interfaces.egg-info/top_level.txt
+[2.417s] writing manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+[2.418s] reading manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+[2.418s] writing manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+[2.438s] [ 12%] Built target ament_cmake_python_build_robile_interfaces_egg
+[2.446s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.615s] [ 17%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robile_interfaces/msg/detail/dds_fastrtps/position_labelled__type_support.cpp.o[0m
+[2.835s] [ 20%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robile_interfaces/msg/detail/dds_fastrtps/position_labelled_array__type_support.cpp.o[0m
+[3.082s] [ 23%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.130s] [ 23%] Built target robile_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.141s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.286s] [ 28%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robile_interfaces/msg/position_labelled__type_support.cpp.o[0m
+[3.448s] [ 30%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robile_interfaces/msg/position_labelled_array__type_support.cpp.o[0m
+[3.589s] [ 33%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_cpp.so[0m
+[3.621s] [ 33%] Built target robile_interfaces__rosidl_typesupport_cpp
+[3.630s] [ 35%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.850s] [ 38%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robile_interfaces/msg/detail/position_labelled__functions.c.o[0m
+[3.886s] [ 41%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robile_interfaces/msg/detail/position_labelled_array__functions.c.o[0m
+[3.917s] [ 43%] [32m[1mLinking C shared library librobile_interfaces__rosidl_generator_c.so[0m
+[3.953s] [ 43%] Built target robile_interfaces__rosidl_generator_c
+[3.961s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.132s] [ 48%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled__type_support_c.cpp.o[0m
+[4.314s] [ 51%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled_array__type_support_c.cpp.o[0m
+[4.498s] [ 53%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.556s] [ 53%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c
+[4.564s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.709s] [ 58%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robile_interfaces/msg/position_labelled__type_support.cpp.o[0m
+[4.733s] [ 61%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robile_interfaces/msg/position_labelled_array__type_support.cpp.o[0m
+[4.758s] [ 64%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_c.so[0m
+[4.790s] [ 64%] Built target robile_interfaces__rosidl_typesupport_c
+[4.799s] [ 66%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.977s] [ 69%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robile_interfaces/msg/detail/position_labelled__type_support.c.o[0m
+[5.003s] [ 71%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robile_interfaces/msg/detail/position_labelled_array__type_support.c.o[0m
+[5.030s] [ 74%] [32m[1mLinking C shared library librobile_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.058s] [ 74%] Built target robile_interfaces__rosidl_typesupport_introspection_c
+[5.076s] [ 74%] Built target robile_interfaces
+[5.092s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.327s] [ 76%] Built target robile_interfaces__py
+[5.347s] [ 79%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robile_interfaces/msg/_position_labelled_s.c.o[0m
+[5.410s] [ 82%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robile_interfaces/msg/_position_labelled_array_s.c.o[0m
+[5.476s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/robile_interfaces/librobile_interfaces__rosidl_generator_py.so[0m
+[5.507s] [ 84%] Built target robile_interfaces__rosidl_generator_py
+[5.524s] [ 87%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.590s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.621s] [ 89%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.642s] [ 92%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.707s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.739s] [ 94%] Built target robile_interfaces__rosidl_typesupport_c__pyext
+[5.756s] [ 97%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.826s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.857s] [100%] Built target robile_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.866s] Invoked command in '/home/khizer/amr_project/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_interfaces -- -j12 -l12
+[5.867s] Invoking command in '/home/khizer/amr_project/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_interfaces
+[5.874s] -- Install configuration: ""
+[5.874s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/ament_index/resource_index/rosidl_interfaces/robile_interfaces
+[5.874s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[5.874s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[5.874s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled.h
+[5.874s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[5.874s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__struct.h
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__functions.c
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__type_support.h
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__functions.h
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__struct.h
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__functions.c
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__type_support.h
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__functions.h
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled_array.h
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/environment/library_path.sh
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/environment/library_path.dsv
+[5.875s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_c.so
+[5.876s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_c.so" to ""
+[5.876s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[5.876s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[5.876s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[5.876s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_fastrtps_c.h
+[5.876s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_fastrtps_c.h
+[5.876s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.876s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.876s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.876s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[5.876s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[5.876s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__type_support.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__type_support.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__builder.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__struct.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__traits.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__traits.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__struct.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__builder.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled_array.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.877s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[5.877s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[5.877s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_fastrtps_cpp.hpp
+[5.877s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/dds_fastrtps
+[5.878s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.878s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.878s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.878s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[5.878s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[5.878s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[5.878s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_introspection_c.h
+[5.878s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_introspection_c.h
+[5.878s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__type_support.c
+[5.878s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__type_support.c
+[5.878s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.878s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_c.so
+[5.879s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.879s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_c.so
+[5.879s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_c.so" to ""
+[5.879s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[5.879s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[5.879s] -- Up-to-date: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[5.879s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__type_support.cpp
+[5.879s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_introspection_cpp.hpp
+[5.879s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_introspection_cpp.hpp
+[5.879s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__type_support.cpp
+[5.879s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.880s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.880s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_cpp.so
+[5.880s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.880s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/environment/pythonpath.sh
+[5.880s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/environment/pythonpath.dsv
+[5.880s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info
+[5.880s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/__init__.py
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_s.c
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_array.py
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/__init__.py
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_array_s.c
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled.py
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.881s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/librobile_interfaces__rosidl_generator_py.so
+[5.882s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_c.c
+[5.882s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.882s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.906s] Listing '/home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces'...
+[5.906s] Compiling '/home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/__init__.py'...
+[5.906s] Listing '/home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg'...
+[5.906s] Compiling '/home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/__init__.py'...
+[5.906s] Compiling '/home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled.py'...
+[5.906s] Compiling '/home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_array.py'...
+[5.909s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.909s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.909s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.910s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.910s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.910s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.910s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_py.so
+[5.910s] -- Set runtime path of "/home/khizer/amr_project/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_py.so" to ""
+[5.910s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelled.idl
+[5.910s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelledArray.idl
+[5.910s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelled.msg
+[5.910s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelledArray.msg
+[5.910s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/ament_index/resource_index/package_run_dependencies/robile_interfaces
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/ament_index/resource_index/parent_prefix_path/robile_interfaces
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/environment/ament_prefix_path.sh
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/environment/ament_prefix_path.dsv
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/environment/path.sh
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/environment/path.dsv
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/local_setup.bash
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/local_setup.sh
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/local_setup.zsh
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/local_setup.dsv
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.dsv
+[5.911s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/ament_index/resource_index/packages/robile_interfaces
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_cExport.cmake
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_cppExport.cmake
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.912s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cExport.cmake
+[5.913s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.913s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.913s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.913s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cppExport.cmake
+[5.913s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.913s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_pyExport.cmake
+[5.914s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.914s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.914s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.914s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.914s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.914s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.914s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.914s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.915s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfacesConfig.cmake
+[5.915s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfacesConfig-version.cmake
+[5.915s] -- Installing: /home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.xml
+[5.917s] Invoked command in '/home/khizer/amr_project/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_interfaces

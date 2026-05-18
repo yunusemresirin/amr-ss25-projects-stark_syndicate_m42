@@ -1,0 +1,21 @@
+[1.086s] Invoking command in '/home/khizer/amr_project/Robile/robile_demos/robile_control_simple': PYTHONPATH=/home/khizer/amr_project/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_control_simple build --build-base /home/khizer/amr_project/build/robile_control_simple/build install --record /home/khizer/amr_project/build/robile_control_simple/install.log --single-version-externally-managed install_data
+[1.236s] running egg_info
+[1.236s] writing ../../../build/robile_control_simple/robile_control_simple.egg-info/PKG-INFO
+[1.236s] writing dependency_links to ../../../build/robile_control_simple/robile_control_simple.egg-info/dependency_links.txt
+[1.237s] writing entry points to ../../../build/robile_control_simple/robile_control_simple.egg-info/entry_points.txt
+[1.237s] writing requirements to ../../../build/robile_control_simple/robile_control_simple.egg-info/requires.txt
+[1.237s] writing top-level names to ../../../build/robile_control_simple/robile_control_simple.egg-info/top_level.txt
+[1.238s] reading manifest file '../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+[1.239s] writing manifest file '../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+[1.239s] running build
+[1.239s] running build_py
+[1.239s] running install
+[1.239s] running install_lib
+[1.240s] running install_data
+[1.240s] running install_egg_info
+[1.241s] removing '/home/khizer/amr_project/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple-0.0.0-py3.10.egg-info' (and everything under it)
+[1.241s] Copying ../../../build/robile_control_simple/robile_control_simple.egg-info to /home/khizer/amr_project/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple-0.0.0-py3.10.egg-info
+[1.242s] running install_scripts
+[1.254s] Installing circular_motion_publisher script to /home/khizer/amr_project/install/robile_control_simple/lib/robile_control_simple
+[1.255s] writing list of installed files to '/home/khizer/amr_project/build/robile_control_simple/install.log'
+[1.277s] Invoked command in '/home/khizer/amr_project/Robile/robile_demos/robile_control_simple' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_control_simple build --build-base /home/khizer/amr_project/build/robile_control_simple/build install --record /home/khizer/amr_project/build/robile_control_simple/install.log --single-version-externally-managed install_data

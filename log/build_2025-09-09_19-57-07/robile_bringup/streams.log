@@ -1,0 +1,20 @@
+[1.060s] Invoking command in '/home/khizer/amr_project/Robile/robile_bringup': PYTHONPATH=/home/khizer/amr_project/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robile_bringup build --build-base /home/khizer/amr_project/build/robile_bringup/build install --record /home/khizer/amr_project/build/robile_bringup/install.log --single-version-externally-managed install_data
+[1.207s] running egg_info
+[1.208s] writing ../../build/robile_bringup/robile_bringup.egg-info/PKG-INFO
+[1.208s] writing dependency_links to ../../build/robile_bringup/robile_bringup.egg-info/dependency_links.txt
+[1.208s] writing entry points to ../../build/robile_bringup/robile_bringup.egg-info/entry_points.txt
+[1.208s] writing requirements to ../../build/robile_bringup/robile_bringup.egg-info/requires.txt
+[1.208s] writing top-level names to ../../build/robile_bringup/robile_bringup.egg-info/top_level.txt
+[1.210s] reading manifest file '../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[1.211s] writing manifest file '../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[1.211s] running build
+[1.211s] running build_py
+[1.211s] running install
+[1.211s] running install_lib
+[1.212s] running install_data
+[1.213s] running install_egg_info
+[1.214s] removing '/home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages/robile_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[1.214s] Copying ../../build/robile_bringup/robile_bringup.egg-info to /home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages/robile_bringup-0.0.0-py3.10.egg-info
+[1.214s] running install_scripts
+[1.229s] writing list of installed files to '/home/khizer/amr_project/build/robile_bringup/install.log'
+[1.250s] Invoked command in '/home/khizer/amr_project/Robile/robile_bringup' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robile_bringup build --build-base /home/khizer/amr_project/build/robile_bringup/build install --record /home/khizer/amr_project/build/robile_bringup/install.log --single-version-externally-managed install_data

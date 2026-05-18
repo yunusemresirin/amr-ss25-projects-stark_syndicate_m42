@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/khizer/amr_project/build/robile_description
+-- Install configuration: ""
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/robile_brick_housing
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_green.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_blue.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/robile_brick_housing/general_brick_housing.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_yellow.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_red.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/robile_brick_housing/wheeled_brick_housing.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/passive_caster_wheel
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/passive_caster_wheel/pivot.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/passive_caster_wheel/wheel.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/sensors
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/sensors/hokuyo_convex.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/sensors/sick-lms1xx.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/sensors/hokuyo.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/kelo_drive
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_base.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_wheel.dae
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//robots
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//robots/robile3_config.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//robots/4_wheel_config.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//robots/6_wheel_config.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//robots/2_wheel_config.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/robile_bricks
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/robile_bricks/robile_active_wheel_brick.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/robile_bricks/robile_master_battery_brick.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/robile_bricks/robile_cpu_brick.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/robile_bricks/robile_passive_wheel_brick.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/robile_bricks/robile_empty_brick.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/robile_bricks/robile_slave_battery_brick.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/sensors
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/sensors/camera_front.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/sensors/camera_front.gazebo.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.gazebo.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx_mount.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/base_macros
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive_wheel.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/base_macros/common.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/base_macros/passive_caster_wheel.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/base_macros/brick_housing.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//urdf/base_macros/materials.urdf.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//gazebo
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//gazebo/gazebo_robile_laser_scanner.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//gazebo/gazebo_ros_control.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//gazebo/gazebo_robile_laserscanner_camera.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//gazebo/gazebo_ros_planar_move.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description//gazebo/gazebo_robile.xacro
+-- Installing: /home/khizer/amr_project/install/robile_description/share/ament_index/resource_index/package_run_dependencies/robile_description
+-- Installing: /home/khizer/amr_project/install/robile_description/share/ament_index/resource_index/parent_prefix_path/robile_description
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/environment/ament_prefix_path.sh
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/environment/ament_prefix_path.dsv
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/environment/path.sh
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/environment/path.dsv
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/local_setup.bash
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/local_setup.sh
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/local_setup.zsh
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/local_setup.dsv
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/package.dsv
+-- Installing: /home/khizer/amr_project/install/robile_description/share/ament_index/resource_index/packages/robile_description
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/cmake/robile_descriptionConfig.cmake
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/cmake/robile_descriptionConfig-version.cmake
+-- Installing: /home/khizer/amr_project/install/robile_description/share/robile_description/package.xml

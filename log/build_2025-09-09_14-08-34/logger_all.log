@@ -1,0 +1,675 @@
+[0.058s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.058s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a16b356e710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a16b3657d30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a16b3657d30>>, mixin_verb=('build',))
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.154s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/khizer/amr_project'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/docs) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/docs) ignored
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_bringup) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_bringup) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_bringup) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_bringup) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_bringup) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_bringup) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_bringup) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_bringup) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'Robile/robile_bringup' with type 'ros.ament_python' and name 'robile_bringup'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_control_simple) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_control_simple) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_control_simple) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_control_simple) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_control_simple) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_control_simple) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_control_simple) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_control_simple) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_control_simple) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'Robile/robile_demos/robile_control_simple' with type 'ros.ament_python' and name 'robile_control_simple'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_reach_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_reach_goal) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_reach_goal) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_reach_goal) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_reach_goal) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_reach_goal) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_reach_goal) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_reach_goal) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/robile_demos/robile_reach_goal) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'Robile/robile_demos/robile_reach_goal' with type 'ros.ament_python' and name 'robile_reach_goal'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/bitmaps) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet01) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(Robile/worksheets/worksheet02) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(robile_autonomous) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(robile_autonomous) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(robile_autonomous) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(robile_autonomous) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(robile_autonomous) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(robile_autonomous) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(robile_autonomous) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(robile_autonomous) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(robile_autonomous) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'robile_autonomous' with type 'ros.ament_python' and name 'robile_autonomous'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'robile_description' with type 'ros.ament_cmake' and name 'robile_description'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'robile_gazebo' with type 'ros.ament_cmake' and name 'robile_gazebo'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'robile_interfaces' with type 'ros.ament_cmake' and name 'robile_interfaces'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'robile_navigation' with type 'ros.ament_cmake' and name 'robile_navigation'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(robile_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(robile_slam) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(robile_slam) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(robile_slam) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(robile_slam) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(robile_slam) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(robile_slam) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(robile_slam) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(robile_slam) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'robile_slam' with type 'ros.ament_python' and name 'robile_slam'
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.188s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/khizer/amr_project/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/khizer/ros2_ws/install
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/humble
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_autonomous' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_autonomous' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_autonomous' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_autonomous' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_autonomous' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_autonomous' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_autonomous' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_autonomous' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_autonomous' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'robile_autonomous' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khizer/amr_project/build/robile_autonomous', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khizer/amr_project/install/robile_autonomous', 'merge_install': False, 'path': '/home/khizer/amr_project/robile_autonomous', 'symlink_install': False, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'robile_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khizer/amr_project/build/robile_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khizer/amr_project/install/robile_bringup', 'merge_install': False, 'path': '/home/khizer/amr_project/Robile/robile_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'robile_control_simple' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khizer/amr_project/build/robile_control_simple', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khizer/amr_project/install/robile_control_simple', 'merge_install': False, 'path': '/home/khizer/amr_project/Robile/robile_demos/robile_control_simple', 'symlink_install': False, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'robile_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khizer/amr_project/build/robile_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khizer/amr_project/install/robile_description', 'merge_install': False, 'path': '/home/khizer/amr_project/robile_description', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'robile_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khizer/amr_project/build/robile_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khizer/amr_project/install/robile_interfaces', 'merge_install': False, 'path': '/home/khizer/amr_project/robile_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'robile_reach_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khizer/amr_project/build/robile_reach_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khizer/amr_project/install/robile_reach_goal', 'merge_install': False, 'path': '/home/khizer/amr_project/Robile/robile_demos/robile_reach_goal', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_slam' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_slam' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'robile_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khizer/amr_project/build/robile_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khizer/amr_project/install/robile_slam', 'merge_install': False, 'path': '/home/khizer/amr_project/robile_slam', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'robile_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khizer/amr_project/build/robile_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khizer/amr_project/install/robile_gazebo', 'merge_install': False, 'path': '/home/khizer/amr_project/robile_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'robile_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khizer/amr_project/build/robile_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khizer/amr_project/install/robile_navigation', 'merge_install': False, 'path': '/home/khizer/amr_project/robile_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.216s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khizer/amr_project/robile_description' with build type 'ament_cmake'
+[0.217s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khizer/amr_project/robile_description'
+[0.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khizer/amr_project/robile_interfaces' with build type 'ament_cmake'
+[0.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khizer/amr_project/robile_interfaces'
+[0.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.225s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/khizer/amr_project/robile_autonomous' with build type 'ament_python'
+[0.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_autonomous', 'ament_prefix_path')
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/hook/ament_prefix_path.ps1'
+[0.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/hook/ament_prefix_path.dsv'
+[0.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/hook/ament_prefix_path.sh'
+[0.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/khizer/amr_project/Robile/robile_bringup' with build type 'ament_python'
+[0.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_bringup', 'ament_prefix_path')
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.ps1'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.dsv'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.sh'
+[0.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.235s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/khizer/amr_project/Robile/robile_demos/robile_control_simple' with build type 'ament_python'
+[0.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_control_simple', 'ament_prefix_path')
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.ps1'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.dsv'
+[0.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.sh'
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/khizer/amr_project/Robile/robile_demos/robile_reach_goal' with build type 'ament_python'
+[0.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_reach_goal', 'ament_prefix_path')
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.ps1'
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.dsv'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.sh'
+[0.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/khizer/amr_project/robile_slam' with build type 'ament_python'
+[0.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_slam', 'ament_prefix_path')
+[0.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_slam/share/robile_slam/hook/ament_prefix_path.ps1'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_slam/share/robile_slam/hook/ament_prefix_path.dsv'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_slam/share/robile_slam/hook/ament_prefix_path.sh'
+[0.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/build/robile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_description -- -j12 -l12
+[0.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_interfaces -- -j12 -l12
+[0.403s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/khizer/amr_project/robile_autonomous'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.559s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/khizer/amr_project/Robile/robile_bringup'
+[0.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.715s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/khizer/amr_project/Robile/robile_demos/robile_control_simple'
+[0.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.871s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/khizer/amr_project/Robile/robile_demos/robile_reach_goal'
+[0.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.029s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/khizer/amr_project/robile_slam'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_interfaces -- -j12 -l12
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_interfaces
+[1.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/build/robile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_description -- -j12 -l12
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/build/robile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_description
+[1.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_description)
+[1.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/build/robile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_description
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description' for CMake module files
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description' for CMake config files
+[1.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_description', 'cmake_prefix_path')
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_description/share/robile_description/hook/cmake_prefix_path.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_description/share/robile_description/hook/cmake_prefix_path.dsv'
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_description/share/robile_description/hook/cmake_prefix_path.sh'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description/bin'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description/lib/pkgconfig/robile_description.pc'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description/lib/python3.10/site-packages'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description/bin'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_description/share/robile_description/package.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_description/share/robile_description/package.dsv'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_description/share/robile_description/package.sh'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_description/share/robile_description/package.bash'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_description/share/robile_description/package.zsh'
+[1.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_description/share/colcon-core/packages/robile_description)
+[1.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_description)
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description' for CMake module files
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description' for CMake config files
+[1.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_description', 'cmake_prefix_path')
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_description/share/robile_description/hook/cmake_prefix_path.ps1'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_description/share/robile_description/hook/cmake_prefix_path.dsv'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_description/share/robile_description/hook/cmake_prefix_path.sh'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description/bin'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description/lib/pkgconfig/robile_description.pc'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description/lib/python3.10/site-packages'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_description/bin'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_description/share/robile_description/package.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_description/share/robile_description/package.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_description/share/robile_description/package.sh'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_description/share/robile_description/package.bash'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_description/share/robile_description/package.zsh'
+[1.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_description/share/colcon-core/packages/robile_description)
+[1.075s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khizer/amr_project/robile_gazebo' with build type 'ament_cmake'
+[1.075s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khizer/amr_project/robile_gazebo'
+[1.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_interfaces)
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces' for CMake module files
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_gazebo -- -j12 -l12
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_interfaces
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces' for CMake config files
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'cmake_prefix_path')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.sh'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/lib'
+[1.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'ld_library_path_lib')
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.ps1'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/bin'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/lib/pkgconfig/robile_interfaces.pc'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/lib/python3.10/site-packages'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/bin'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.dsv'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.sh'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.bash'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.zsh'
+[1.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_interfaces/share/colcon-core/packages/robile_interfaces)
+[1.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_interfaces)
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces' for CMake module files
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces' for CMake config files
+[1.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'cmake_prefix_path')
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.sh'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/lib'
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'ld_library_path_lib')
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.ps1'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.sh'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/bin'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/lib/pkgconfig/robile_interfaces.pc'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/lib/python3.10/site-packages'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_interfaces/bin'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.ps1'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.sh'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.bash'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_interfaces/share/robile_interfaces/package.zsh'
+[1.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_interfaces/share/colcon-core/packages/robile_interfaces)
+[1.098s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khizer/amr_project/robile_navigation' with build type 'ament_cmake'
+[1.098s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khizer/amr_project/robile_navigation'
+[1.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/build/robile_navigation': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_navigation -- -j12 -l12
+[1.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_gazebo -- -j12 -l12
+[1.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_gazebo
+[1.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_gazebo)
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo' for CMake module files
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo' for CMake config files
+[1.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_gazebo
+[1.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_gazebo', 'cmake_prefix_path')
+[1.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.ps1'
+[1.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.dsv'
+[1.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.sh'
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo/bin'
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo/lib/pkgconfig/robile_gazebo.pc'
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo/lib/python3.10/site-packages'
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo/bin'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.ps1'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.sh'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.bash'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.zsh'
+[1.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_gazebo/share/colcon-core/packages/robile_gazebo)
+[1.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_gazebo)
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo' for CMake module files
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo' for CMake config files
+[1.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_gazebo', 'cmake_prefix_path')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo/bin'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo/lib/pkgconfig/robile_gazebo.pc'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo/lib/python3.10/site-packages'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_gazebo/bin'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.sh'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.bash'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.zsh'
+[1.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_gazebo/share/colcon-core/packages/robile_gazebo)
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/Robile/robile_bringup': PYTHONPATH=/home/khizer/amr_project/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robile_bringup build --build-base /home/khizer/amr_project/build/robile_bringup/build install --record /home/khizer/amr_project/build/robile_bringup/install.log --single-version-externally-managed install_data
+[1.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/Robile/robile_demos/robile_control_simple': PYTHONPATH=/home/khizer/amr_project/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_control_simple build --build-base /home/khizer/amr_project/build/robile_control_simple/build install --record /home/khizer/amr_project/build/robile_control_simple/install.log --single-version-externally-managed install_data
+[1.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/robile_autonomous': PYTHONPATH=/home/khizer/amr_project/build/robile_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robile_autonomous build --build-base /home/khizer/amr_project/build/robile_autonomous/build install --record /home/khizer/amr_project/build/robile_autonomous/install.log --single-version-externally-managed install_data
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/robile_slam': PYTHONPATH=/home/khizer/amr_project/build/robile_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robile_slam build --build-base /home/khizer/amr_project/build/robile_slam/build install --record /home/khizer/amr_project/build/robile_slam/install.log --single-version-externally-managed install_data
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/build/robile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_navigation -- -j12 -l12
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/build/robile_navigation': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_navigation
+[1.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khizer/amr_project/Robile/robile_demos/robile_reach_goal': PYTHONPATH=/home/khizer/amr_project/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_reach_goal build --build-base /home/khizer/amr_project/build/robile_reach_goal/build install --record /home/khizer/amr_project/build/robile_reach_goal/install.log --single-version-externally-managed install_data
+[1.400s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_navigation)
+[1.400s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation' for CMake module files
+[1.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/build/robile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_navigation
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation' for CMake config files
+[1.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_navigation', 'cmake_prefix_path')
+[1.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.ps1'
+[1.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.dsv'
+[1.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.sh'
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/lib'
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/bin'
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/lib/pkgconfig/robile_navigation.pc'
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/lib/python3.10/site-packages'
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/bin'
+[1.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.ps1'
+[1.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.dsv'
+[1.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.sh'
+[1.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.bash'
+[1.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.zsh'
+[1.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_navigation/share/colcon-core/packages/robile_navigation)
+[1.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_navigation)
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation' for CMake module files
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation' for CMake config files
+[1.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_navigation', 'cmake_prefix_path')
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.dsv'
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.sh'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/lib'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/bin'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/lib/pkgconfig/robile_navigation.pc'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/lib/python3.10/site-packages'
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_navigation/bin'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.sh'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.bash'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_navigation/share/robile_navigation/package.zsh'
+[1.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_navigation/share/colcon-core/packages/robile_navigation)
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_bringup' for CMake module files
+[1.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/Robile/robile_bringup' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robile_bringup build --build-base /home/khizer/amr_project/build/robile_bringup/build install --record /home/khizer/amr_project/build/robile_bringup/install.log --single-version-externally-managed install_data
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_bringup' for CMake config files
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_bringup/lib'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_bringup/bin'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_bringup/lib/pkgconfig/robile_bringup.pc'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_bringup/lib/python3.10/site-packages'
+[1.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_bringup', 'pythonpath')
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/hook/pythonpath.ps1'
+[1.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/hook/pythonpath.dsv'
+[1.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/hook/pythonpath.sh'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_bringup/bin'
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_bringup)
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/package.ps1'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/package.dsv'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/package.sh'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/package.bash'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_bringup/share/robile_bringup/package.zsh'
+[1.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_bringup/share/colcon-core/packages/robile_bringup)
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_control_simple' for CMake module files
+[1.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/Robile/robile_demos/robile_control_simple' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_control_simple build --build-base /home/khizer/amr_project/build/robile_control_simple/build install --record /home/khizer/amr_project/build/robile_control_simple/install.log --single-version-externally-managed install_data
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_control_simple' for CMake config files
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_control_simple/lib'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_control_simple/bin'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_control_simple/lib/pkgconfig/robile_control_simple.pc'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_control_simple/lib/python3.10/site-packages'
+[1.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_control_simple', 'pythonpath')
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.dsv'
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.sh'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_control_simple/bin'
+[1.515s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_control_simple)
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/package.ps1'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/package.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/package.sh'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/package.bash'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_control_simple/share/robile_control_simple/package.zsh'
+[1.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_control_simple/share/colcon-core/packages/robile_control_simple)
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_autonomous' for CMake module files
+[1.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/robile_autonomous' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robile_autonomous build --build-base /home/khizer/amr_project/build/robile_autonomous/build install --record /home/khizer/amr_project/build/robile_autonomous/install.log --single-version-externally-managed install_data
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_autonomous' for CMake config files
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_autonomous/lib'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_autonomous/bin'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_autonomous/lib/pkgconfig/robile_autonomous.pc'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_autonomous/lib/python3.10/site-packages'
+[1.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_autonomous', 'pythonpath')
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/hook/pythonpath.ps1'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/hook/pythonpath.dsv'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/hook/pythonpath.sh'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_autonomous/bin'
+[1.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_autonomous)
+[1.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/package.ps1'
+[1.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/package.dsv'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/package.sh'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/package.bash'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_autonomous/share/robile_autonomous/package.zsh'
+[1.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_autonomous/share/colcon-core/packages/robile_autonomous)
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_slam' for CMake module files
+[1.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/robile_slam' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robile_slam build --build-base /home/khizer/amr_project/build/robile_slam/build install --record /home/khizer/amr_project/build/robile_slam/install.log --single-version-externally-managed install_data
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_slam' for CMake config files
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_slam/lib'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_slam/bin'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_slam/lib/pkgconfig/robile_slam.pc'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_slam/lib/python3.10/site-packages'
+[1.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_slam', 'pythonpath')
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_slam/share/robile_slam/hook/pythonpath.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_slam/share/robile_slam/hook/pythonpath.dsv'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_slam/share/robile_slam/hook/pythonpath.sh'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_slam/bin'
+[1.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_slam)
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_slam/share/robile_slam/package.ps1'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_slam/share/robile_slam/package.dsv'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_slam/share/robile_slam/package.sh'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_slam/share/robile_slam/package.bash'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_slam/share/robile_slam/package.zsh'
+[1.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_slam/share/colcon-core/packages/robile_slam)
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_reach_goal' for CMake module files
+[1.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khizer/amr_project/Robile/robile_demos/robile_reach_goal' returned '0': PYTHONPATH=/home/khizer/amr_project/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khizer/amr_project/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_reach_goal build --build-base /home/khizer/amr_project/build/robile_reach_goal/build install --record /home/khizer/amr_project/build/robile_reach_goal/install.log --single-version-externally-managed install_data
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_reach_goal' for CMake config files
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_reach_goal/lib'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_reach_goal/bin'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_reach_goal/lib/pkgconfig/robile_reach_goal.pc'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_reach_goal/lib/python3.10/site-packages'
+[1.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_reach_goal', 'pythonpath')
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/hook/pythonpath.ps1'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/hook/pythonpath.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/hook/pythonpath.sh'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/khizer/amr_project/install/robile_reach_goal/bin'
+[1.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_reach_goal)
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/package.ps1'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/package.dsv'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/package.sh'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/package.bash'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/khizer/amr_project/install/robile_reach_goal/share/robile_reach_goal/package.zsh'
+[1.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khizer/amr_project/install/robile_reach_goal/share/colcon-core/packages/robile_reach_goal)
+[1.598s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.598s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.598s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.598s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.601s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.602s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.602s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.609s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khizer/amr_project/install/local_setup.ps1'
+[1.610s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/khizer/amr_project/install/_local_setup_util_ps1.py'
+[1.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khizer/amr_project/install/setup.ps1'
+[1.613s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khizer/amr_project/install/local_setup.sh'
+[1.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/khizer/amr_project/install/_local_setup_util_sh.py'
+[1.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khizer/amr_project/install/setup.sh'
+[1.614s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khizer/amr_project/install/local_setup.bash'
+[1.615s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khizer/amr_project/install/setup.bash'
+[1.617s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khizer/amr_project/install/local_setup.zsh'
+[1.617s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khizer/amr_project/install/setup.zsh'

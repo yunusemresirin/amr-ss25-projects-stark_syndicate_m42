@@ -1,0 +1,692 @@
+[0.008s] Invoking command in '/home/khizer/amr_project/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/khizer/amr_project/robile_gazebo -DCMAKE_INSTALL_PREFIX=/home/khizer/amr_project/install/robile_gazebo
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.476s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.511s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.521s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.578s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.581s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.660s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.681s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.722s] -- Looking for pthread.h
+[0.776s] -- Looking for pthread.h - found
+[0.776s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.836s] -- Found Threads: TRUE  
+[0.878s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.879s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.879s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.879s]   problems in calling code that expects `find_package` result variables
+[0.879s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.879s] Call Stack (most recent call first):
+[0.879s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.879s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.879s]   CMakeLists.txt:16 (find_package)
+[0.879s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.879s] [0m
+[0.879s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.879s] -- Checking for module 'bullet>=2.82'
+[0.895s] --   Found bullet, version 3.05
+[0.987s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.036s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.052s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.079s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.095s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.101s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.107s] -- Searching for dependencies of ignition-math6
+[1.108s] -- Looking for OGRE...
+[1.108s] -- OGRE_PREFIX_WATCH changed.
+[1.113s] -- Checking for module 'OGRE'
+[1.127s] --   Found OGRE, version 1.9.0
+[1.161s] -- Found Ogre Ghadamon (1.9.0)
+[1.168s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.177s] -- Looking for OGRE_Paging...
+[1.181s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.181s] -- Looking for OGRE_Terrain...
+[1.185s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.185s] -- Looking for OGRE_Property...
+[1.189s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.189s] -- Looking for OGRE_RTShaderSystem...
+[1.195s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.195s] -- Looking for OGRE_Volume...
+[1.199s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.199s] -- Looking for OGRE_Overlay...
+[1.203s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.309s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.311s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.311s] -- Searching for dependencies of ignition-transport8
+[1.325s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.335s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.340s] -- Checking for module 'libzmq >= 4'
+[1.351s] --   Found libzmq , version 4.3.4
+[1.386s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.391s] -- Checking for module 'uuid'
+[1.405s] --   Found uuid, version 2.37.2
+[1.438s] -- Found UUID: TRUE  
+[1.441s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.441s] -- Searching for dependencies of ignition-msgs5
+[1.459s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.464s] -- Checking for module 'tinyxml2'
+[1.479s] --   Found tinyxml2, version 9.0.0
+[1.514s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.516s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.516s] -- Searching for dependencies of ignition-common3
+[1.517s] -- Looking for dlfcn.h - found
+[1.518s] -- Looking for libdl - found
+[1.518s] -- Found DL: TRUE  
+[1.530s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.531s] -- Searching for <ignition-common3> component [graphics]
+[1.533s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.533s] -- Searching for dependencies of ignition-common3-graphics
+[1.533s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.536s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.536s] -- Searching for dependencies of ignition-fuel_tools4
+[1.613s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.620s] -- Checking for module 'jsoncpp'
+[1.636s] --   Found jsoncpp, version 1.9.5
+[1.669s] -- Found JSONCPP: TRUE  
+[1.673s] -- Checking for module 'libzip'
+[1.689s] --   Found libzip, version 1.7.3
+[1.726s] -- Found ZIP: TRUE  
+[1.727s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.727s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.727s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.732s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[1.734s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.743s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.755s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.766s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.816s] -- Configuring done
+[1.820s] -- Generating done
+[1.822s] -- Build files have been written to: /home/khizer/amr_project/build/robile_gazebo
+[1.834s] Invoked command in '/home/khizer/amr_project/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/khizer/amr_project/robile_gazebo -DCMAKE_INSTALL_PREFIX=/home/khizer/amr_project/install/robile_gazebo
+[1.836s] Invoking command in '/home/khizer/amr_project/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_gazebo -- -j12 -l12
+[1.872s] Invoked command in '/home/khizer/amr_project/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/khizer/amr_project/build/robile_gazebo -- -j12 -l12
+[1.874s] Invoking command in '/home/khizer/amr_project/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_gazebo
+[1.879s] -- Install configuration: ""
+[1.879s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//config
+[1.879s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//config/rviz
+[1.879s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_rolling.rviz
+[1.879s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//config/rviz/robile.rviz
+[1.879s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_foxy_nav.rviz
+[1.879s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//config/doxygen
+[1.879s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//config/doxygen/Doxyfile.in
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//launch
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch.py
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_worlds
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_worlds/ar_in_tb3_world.model
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/cafe.world
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/experiment_rooms.png
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/models
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/models/dynamic_obstacle
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/models/dynamic_obstacle/model.config
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/models/dynamic_obstacle/model.sdf
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/models/exp_empty_rooms
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/models/exp_empty_rooms/model.config
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/models/exp_empty_rooms/model.sdf
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room2
+[1.880s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room2/map
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room2/map/room2.yaml
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room2/map/room2.png
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room2/world.model
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room2/world_dynamic.model
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room4
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room4/map
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room4/map/room4.png
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room4/map/room4.yaml
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room4/world.model
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room4/world_dynamic.model
+[1.881s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room4/room4.png
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room3
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room3/room3.png
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room3/map
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room3/map/room3.png
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room3/map/room3.yaml
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room3/world.model
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room3/world_dynamic.model
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room1
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room1/map
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room1/map/room1.yaml
+[1.882s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room1/map/room1.png
+[1.883s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/worlds/room1/world.model
+[1.883s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/README.md
+[1.883s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/pics
+[1.883s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/pics/room3.png
+[1.883s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/pics/room2.png
+[1.883s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/pics/room4.png
+[1.883s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/experiment_rooms/pics/room1.png
+[1.884s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/office
+[1.884s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/office/office_part2.zip
+[1.921s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/office/office_part1.zip
+[1.963s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/office/office.jpg
+[1.963s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/amazon_warehouse.world
+[1.964s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/dynamic_obstacle
+[1.964s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/dynamic_obstacle/model.config
+[1.964s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/dynamic_obstacle/model.sdf
+[1.964s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/potential_field_gazebo.world
+[1.964s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/.DS_Store
+[1.964s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/small_house
+[1.964s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/small_house/small_house.jpg
+[1.964s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/small_house/small_house.zip
+[2.032s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/star_room_with_walls
+[2.032s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/star_room_with_walls/map_0.1m-px.png
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/star_room_with_walls/map.yaml
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/star_room_with_walls/room_with_walls_star
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/star_room_with_walls/room_with_walls_star/model.config
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/star_room_with_walls/room_with_walls_star/model.sdf
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/star_room_with_walls/map_0.05m-px.png
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/warehouse.world
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/dynamix.world
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/random_world
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/random_world/model.config
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/random_world/media
+[2.033s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/random_world/media/materials
+[2.034s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/random_world/media/materials/texture
+[2.034s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/random_world/media/materials/texture/random_world.png
+[2.034s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/random_world/random_world.jpg
+[2.034s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/random_world/model.sdf
+[2.034s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/bookstore
+[2.034s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/bookstore/bookstore.zip
+[2.075s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/bookstore/bookstore.jpg
+[2.075s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_2
+[2.075s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_2/map_0.1m-px.png
+[2.076s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_2/map.yaml
+[2.076s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_2/map_0.05m-px.png
+[2.076s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_2/room3
+[2.076s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_2/room3/model.config
+[2.076s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_2/room3/model.sdf
+[2.076s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_houses
+[2.076s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_houses/amazon_robot_in_house.model
+[2.076s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory
+[2.076s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/factory.model
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/sun
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/sun/model.config
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/sun/model-1_3.sdf
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/sun/model-1_4.sdf
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/sun/model-1_2.sdf
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/sun/model.sdf
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/disk_part_ariac
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/disk_part_ariac/model.config
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/disk_part_ariac/model.sdf
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/disk_part_ariac/meshes
+[2.077s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/disk_part_ariac/meshes/disk.dae
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/wooden_case
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/wooden_case/model.config
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/wooden_case/model.sdf
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/wooden_case/model.rsdf
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_ariac
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_ariac/model.config
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_ariac/materials
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_ariac/materials/textures
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_ariac/materials/textures/ShippingContainer.png
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_ariac/model.sdf
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_ariac/meshes
+[2.078s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_ariac/meshes/ShippingContainer_Textured.mtl
+[2.079s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_ariac/meshes/ShippingContainer_Textured.obj
+[2.079s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_ariac
+[2.079s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_ariac/model.config
+[2.079s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_ariac/materials
+[2.079s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_ariac/materials/textures
+[2.080s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_ariac/materials/textures/Drone.png
+[2.080s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_ariac/model.sdf
+[2.080s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_ariac/meshes
+[2.080s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_ariac/meshes/Drone.dae
+[2.080s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_ariac/model.config~HEAD
+[2.080s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/plastic_cup
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/plastic_cup/model.config
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/plastic_cup/model.sdf
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/plastic_cup/meshes
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/plastic_cup/meshes/plastic_cup.dae
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/plastic_cup/model.rsdf
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/conveyor_belt_ariac
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/conveyor_belt_ariac/model.config
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/conveyor_belt_ariac/model.sdf
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall/model.config
+[2.081s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall/model-1_3.sdf
+[2.082s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall/materials
+[2.082s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall/materials/textures
+[2.082s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall/materials/textures/grey_wall.png
+[2.084s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall/materials/scripts
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall/materials/scripts/grey_wall.material
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall/model-1_4.sdf
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/grey_wall/model.sdf
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part3_ariac
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part3_ariac/model.config
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part3_ariac/model.sdf
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell_bin
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell_bin/model.config
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell_bin/materials
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell_bin/materials/textures
+[2.085s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell_bin/materials/textures/bin.png
+[2.086s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell_bin/model.sdf
+[2.086s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell_bin/meshes
+[2.086s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell_bin/meshes/bin.dae
+[2.086s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel
+[2.086s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/model.config
+[2.086s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/model-1_3.sdf
+[2.086s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/materials
+[2.086s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/materials/textures
+[2.086s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/materials/textures/Construction_Barrel_Spec.png
+[2.087s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/materials/textures/Construction_Barrel_Diffuse.png
+[2.089s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/model-1_4.sdf
+[2.089s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/model.sdf
+[2.089s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/meshes
+[2.089s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_barrel/meshes/construction_barrel.dae
+[2.090s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_short_ariac
+[2.090s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_short_ariac/model.config
+[2.090s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_short_ariac/materials
+[2.090s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_short_ariac/materials/textures
+[2.090s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_short_ariac/materials/textures/ShippingContainer.png
+[2.090s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_short_ariac/model.sdf
+[2.090s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_short_ariac/meshes
+[2.090s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_short_ariac/meshes/ShippingContainer_Textured.mtl
+[2.090s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_short_ariac/meshes/ShippingContainer_Textured.obj
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/euro_pallet
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/euro_pallet/model.config
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/euro_pallet/model.sdf
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/euro_pallet/meshes
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/euro_pallet/meshes/pallet.dae
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ground_plane
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ground_plane/model.config
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ground_plane/model-1_3.sdf
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ground_plane/model-1_4.sdf
+[2.091s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ground_plane/model-1_2.sdf
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ground_plane/model.sdf
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cabinet
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cabinet/model.config
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cabinet/model-1_3.sdf
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cabinet/model-1_4.sdf
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cabinet/model-1_2.sdf
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cabinet/model.sdf
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/warehouse_robot_ariac
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/warehouse_robot_ariac/model.config
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/warehouse_robot_ariac/materials
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/warehouse_robot_ariac/materials/textures
+[2.092s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/warehouse_robot_ariac/materials/textures/robot.png
+[2.093s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/warehouse_robot_ariac/model.sdf
+[2.093s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/warehouse_robot_ariac/meshes
+[2.093s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/warehouse_robot_ariac/meshes/robot.dae
+[2.093s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster
+[2.093s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/model.config
+[2.093s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/model-1_3.sdf
+[2.093s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/materials
+[2.093s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/materials/textures
+[2.093s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/materials/textures/Dumpster_Spec.png
+[2.094s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/materials/textures/Dumpster_Diffuse.png
+[2.095s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/materials/scripts
+[2.095s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/materials/scripts/dumpster.material
+[2.095s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/model-1_4.sdf
+[2.095s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/model.sdf
+[2.095s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/meshes
+[2.095s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/dumpster/meshes/dumpster.dae
+[2.095s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/conveyor_belt_tall_ariac
+[2.095s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/conveyor_belt_tall_ariac/model.config
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/conveyor_belt_tall_ariac/model.sdf
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gasket_part_ariac
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gasket_part_ariac/model.config
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gasket_part_ariac/model.sdf
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gasket_part_ariac/meshes
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gasket_part_ariac/meshes/gasket.dae
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/model.config
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/model-1_3.sdf
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/materials
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/materials/textures
+[2.096s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/materials/textures/cordless_drill.png
+[2.097s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/model-1_4.sdf
+[2.097s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/model-1_2.sdf
+[2.097s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/model.sdf
+[2.097s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/meshes
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/meshes/cordless_drill.dae
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/cordless_drill/meshes/cordless_drill.stl
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/tube_2_25cm
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/tube_2_25cm/model.config
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/tube_2_25cm/model.sdf
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/tube_2_25cm/meshes
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/tube_2_25cm/meshes/tube_2_25.dae
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/tube_2_25cm/model.rsdf
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_with_box_ariac
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_with_box_ariac/model.config
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_with_box_ariac/model.sdf
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/open_box_ariac
+[2.098s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/open_box_ariac/model.config
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/open_box_ariac/materials
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/open_box_ariac/materials/textures
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/open_box_ariac/materials/textures/open_box.png
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/open_box_ariac/model.sdf
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/open_box_ariac/meshes
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/open_box_ariac/meshes/open_box.mtl
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/open_box_ariac/meshes/open_box.obj
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/kit_tray_ariac
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/kit_tray_ariac/model.config
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/kit_tray_ariac/model.sdf
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part2_ariac
+[2.099s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part2_ariac/model.config
+[2.100s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part2_ariac/model.sdf
+[2.100s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/logical_camera_ariac
+[2.100s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/logical_camera_ariac/model.config
+[2.100s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/logical_camera_ariac/materials
+[2.100s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/logical_camera_ariac/materials/textures
+[2.100s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/logical_camera_ariac/materials/textures/camera.png
+[2.100s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/logical_camera_ariac/model.sdf
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/logical_camera_ariac/meshes
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/logical_camera_ariac/meshes/camera.dae
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/table
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/table/model.config
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/table/model-1_3.sdf
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/table/model-1_4.sdf
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/table/model-1_2.sdf
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/table/model.sdf
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/control_console
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/control_console/model.config
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/control_console/materials
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/control_console/materials/textures
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/control_console/materials/textures/light.png
+[2.101s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/control_console/materials/textures/console.png
+[2.102s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/control_console/model.sdf
+[2.102s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/control_console/meshes
+[2.102s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/control_console/meshes/console.dae
+[2.103s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell
+[2.103s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/model.config
+[2.103s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials
+[2.103s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures
+[2.103s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Floor.png
+[2.104s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Pallet.png
+[2.104s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/RubberMat.png
+[2.104s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Yellow.png
+[2.104s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Door_Window.png
+[2.104s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Wall_Corrugated.png
+[2.105s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/PalletWrap.png
+[2.105s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Stairs.png
+[2.105s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Wall_Concrete.png
+[2.105s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Shelves.png
+[2.106s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Bin.png
+[2.106s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/CardboardBoxes.png
+[2.106s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/WorkCell_Render.png
+[2.109s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/ControlPanel.png
+[2.109s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/RollupDoor.png
+[2.110s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Plywood.png
+[2.110s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Pillar.png
+[2.111s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Conveyor.png
+[2.111s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/materials/textures/Mesh.png
+[2.111s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/model.sdf
+[2.111s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/meshes
+[2.111s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/workcell/meshes/mesh.dae
+[2.113s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/hokuyo_ariac
+[2.113s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/hokuyo_ariac/model.config
+[2.113s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/hokuyo_ariac/model.sdf
+[2.113s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/hokuyo_ariac/meshes
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/hokuyo_ariac/meshes/hokuyo_convex.stl
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/hokuyo_ariac/meshes/hokuyo.dae
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_ariac
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_ariac/model.config
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_ariac/materials
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_ariac/materials/textures
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_ariac/materials/textures/ShippingContainer.png
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_ariac/model.sdf
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_ariac/meshes
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_ariac/meshes/ShippingContainer_Textured.mtl
+[2.114s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_ariac/meshes/ShippingContainer_Textured.obj
+[2.115s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_tall_ariac
+[2.115s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_tall_ariac/model.config
+[2.115s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_tall_ariac/materials
+[2.115s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_tall_ariac/materials/textures
+[2.115s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_tall_ariac/materials/textures/ShippingContainer.png
+[2.115s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_tall_ariac/model.sdf
+[2.115s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_tall_ariac/meshes
+[2.115s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_tall_ariac/meshes/ShippingContainer_Textured.mtl
+[2.116s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/shipping_container_conveyor_tall_ariac/meshes/ShippingContainer_Textured.obj
+[2.116s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ladder_75deg_0rails
+[2.116s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ladder_75deg_0rails/model.config
+[2.116s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ladder_75deg_0rails/model.sdf
+[2.116s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/ladder_75deg_0rails/model.rsdf
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_collection_zone_ariac
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_collection_zone_ariac/model.config
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/drone_collection_zone_ariac/model.sdf
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/closed_box_ariac
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/closed_box_ariac/model.config
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/closed_box_ariac/materials
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/closed_box_ariac/materials/textures
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/closed_box_ariac/materials/textures/closed_box.png
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/closed_box_ariac/model.sdf
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/closed_box_ariac/meshes
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/closed_box_ariac/meshes/closed_box.mtl
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/closed_box_ariac/meshes/closed_box.obj
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part1_ariac
+[2.117s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part1_ariac/model.config
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part1_ariac/model.sdf
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/yellow_bin_ariac
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/yellow_bin_ariac/model.config
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/yellow_bin_ariac/materials
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/yellow_bin_ariac/materials/textures
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/yellow_bin_ariac/materials/textures/yellow_bin.png
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/yellow_bin_ariac/model.sdf
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/yellow_bin_ariac/meshes
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/yellow_bin_ariac/meshes/yellow_bin.mtl
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/yellow_bin_ariac/meshes/yellow_bin.obj
+[2.118s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone/model.config
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone/model-1_3.sdf
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone/materials
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone/materials/textures
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone/materials/textures/Construction_Cone_Diffuse.png
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone/model-1_4.sdf
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone/model.sdf
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone/meshes
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/construction_cone/meshes/construction_cone.dae
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/piston_rod_part_ariac
+[2.119s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/piston_rod_part_ariac/model.config
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/piston_rod_part_ariac/model.sdf
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/piston_rod_part_ariac/meshes
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/piston_rod_part_ariac/meshes/piston_rod.dae
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/pulley_part_ariac
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/pulley_part_ariac/model.config
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/pulley_part_ariac/model.sdf
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/pulley_part_ariac/meshes
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/pulley_part_ariac/meshes/pulley.dae
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gear_part_ariac
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gear_part_ariac/model.config
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gear_part_ariac/model.sdf
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gear_part_ariac/meshes
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/gear_part_ariac/meshes/gear.dae
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/first_2015_trash_can
+[2.120s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/first_2015_trash_can/model.config
+[2.121s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/first_2015_trash_can/model.sdf
+[2.121s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/first_2015_trash_can/meshes
+[2.121s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/first_2015_trash_can/meshes/trash_can.dae
+[2.121s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac
+[2.121s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac/model.config
+[2.122s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac/materials
+[2.122s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac/materials/textures
+[2.122s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac/materials/textures/parts.png
+[2.122s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac/materials/scripts
+[2.122s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac/materials/scripts/arm_part.material
+[2.122s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac/model.sdf
+[2.122s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac/meshes
+[2.122s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/arm_part_ariac/meshes/arm.dae
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/deletion_wall
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/deletion_wall/model.config
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/deletion_wall/model.sdf
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/swissranger_camera_ariac
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/swissranger_camera_ariac/model.config
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/swissranger_camera_ariac/model.sdf
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/swissranger_camera_ariac/meshes
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/swissranger_camera_ariac/meshes/SR4000.stl
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/swissranger_camera_ariac/meshes/collada
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/swissranger_camera_ariac/meshes/collada/SR4000.dae
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part4_ariac
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part4_ariac/model.config
+[2.123s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/models/part4_ariac/model.sdf
+[2.124s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/factory/factory.jpg
+[2.124s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/dynamic_world
+[2.124s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/dynamic_world/world.model
+[2.124s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/dynamic_world/dynamic_room.jpg
+[2.124s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/empty.world
+[2.124s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital
+[2.124s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/photos
+[2.124s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/photos/PortraitA_01.jpg
+[2.127s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/photos/PortraitE_01.jpg
+[2.127s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/photos/PortraitE_02.jpg
+[2.127s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/photos/PortraitD_01.jpg
+[2.127s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/photos/PortraitD_02.jpg
+[2.127s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/photos/PortraitC_01.jpg
+[2.128s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/hospital_two_floors.world
+[2.128s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/models_part4.zip
+[2.162s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/two_floor.png
+[2.163s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/models_part3.zip
+[2.192s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/hospital.world
+[2.192s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/hospital.png
+[2.192s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/models_part1.zip
+[2.222s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/hospital/models_part2.zip
+[2.249s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/closed_walls.world
+[2.249s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/amazon_warehouse
+[2.249s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/amazon_warehouse/amazon_warehouse.model
+[2.249s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/amazon_warehouse/amazon_warehouse_with_robot.model
+[2.249s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/empty_room
+[2.249s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/empty_room/maps
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/empty_room/maps/empty_room.pgm
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/empty_room/maps/empty_room.png
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/empty_room/model.config
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/empty_room/model.sdf
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_1
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_1/map_0.1m-px.png
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_1/simple_rooms.png
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_1/room_with_walls_10x10
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_1/room_with_walls_10x10/model.config
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_1/room_with_walls_10x10/model.sdf
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_1/map.yaml
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/room_with_walls_1/map_0.05m-px.png
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/maps
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/maps/turtlebot3_world.pgm
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/maps/turtlebot3_world.yaml
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/model.config
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/tb_world.jpg
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/model-1_4.sdf
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/model.sdf
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/meshes
+[2.250s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/meshes/wall.dae
+[2.251s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//worlds/turtlebot3_world/meshes/hexagon.dae
+[2.251s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models
+[2.251s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_walls
+[2.251s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_walls/model.config
+[2.251s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_walls/materials
+[2.251s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_walls/materials/textures
+[2.251s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_walls/materials/textures/grey_wall.png
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_walls/materials/scripts
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_walls/materials/scripts/grey_wall.material
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_walls/model.sdf
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_pallet
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_pallet/model.config
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_pallet/model.sdf
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/.DS_Store
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/ground_plane
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/ground_plane/model.config
+[2.254s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/ground_plane/model-1_3.sdf
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/ground_plane/model-1_4.sdf
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/ground_plane/model-1_2.sdf
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/ground_plane/model.sdf
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/model.config
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_10.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_21.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_28.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_23.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_22.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_29.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_31.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_25.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_30.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_26.jpg
+[2.255s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_2.jpg
+[2.256s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_37.jpg
+[2.256s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_35.jpg
+[2.256s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_34.jpg
+[2.256s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/materials/textures/__auto_24.jpg
+[2.256s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/model.sdf
+[2.256s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/meshes
+[2.256s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe/meshes/cafe.dae
+[2.258s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_pallet3
+[2.258s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_pallet3/model.config
+[2.258s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/warehouse_pallet3/model.sdf
+[2.258s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot2
+[2.258s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot2/model.config
+[2.258s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot2/model.sdf
+[2.258s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot2/meshes
+[2.258s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot2/meshes/lds.dae
+[2.259s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot2/meshes/left_tire.dae
+[2.262s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot2/meshes/waffle_pi_base.dae
+[2.284s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot2/meshes/right_tire.dae
+[2.287s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot
+[2.287s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/test2.urdf
+[2.287s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/model.config
+[2.287s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/model2.sdf
+[2.287s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/test.urdf
+[2.287s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/model-1_4.sdf
+[2.287s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/model.sdf
+[2.287s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/meshes
+[2.287s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/meshes/lds.dae
+[2.288s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/meshes/left_tire.dae
+[2.292s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/meshes/waffle_pi_base.dae
+[2.315s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/meshes/burger_base.dae
+[2.323s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/amazon_robot/meshes/right_tire.dae
+[2.325s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_house
+[2.325s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_house/model.config
+[2.325s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_house/model.sdf
+[2.325s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table/model.config
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table/materials
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table/materials/textures
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table/materials/textures/Maple.jpg
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table/materials/textures/Wood_Floor_Dark.jpg
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table/model-1_4.sdf
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table/model.sdf
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table/meshes
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/cafe_table/meshes/cafe_table.dae
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_world
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_world/model.config
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_world/model-1_4.sdf
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_world/model.sdf
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_world/meshes
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_world/meshes/wall.dae
+[2.326s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[2.327s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/ament_index/resource_index/package_run_dependencies/robile_gazebo
+[2.327s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/ament_index/resource_index/parent_prefix_path/robile_gazebo
+[2.327s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.sh
+[2.327s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.dsv
+[2.327s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/environment/path.sh
+[2.327s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/environment/path.dsv
+[2.327s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/local_setup.bash
+[2.327s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/local_setup.sh
+[2.327s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/local_setup.zsh
+[2.328s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/local_setup.dsv
+[2.328s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.dsv
+[2.328s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/ament_index/resource_index/packages/robile_gazebo
+[2.328s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.328s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig.cmake
+[2.328s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig-version.cmake
+[2.328s] -- Installing: /home/khizer/amr_project/install/robile_gazebo/share/robile_gazebo/package.xml
+[2.330s] Invoked command in '/home/khizer/amr_project/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/khizer/amr_project/install/robile_description:/home/khizer/amr_project/install/robile_navigation:/home/khizer/amr_project/install/robile_interfaces:/home/khizer/amr_project/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_navigation:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_interfaces:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_gazebo:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_description:/home/khizer/ros2_ws/install/robile_navigation:/home/khizer/ros2_ws/install/robile_interfaces:/home/khizer/ros2_ws/install/robile_gazebo:/home/khizer/ros2_ws/install/robile_description:/home/khizer/amr_project/install/robile_slam:/home/khizer/amr_project/install/robile_autonomous:/home/khizer/amr_project/install/robile_reach_goal:/home/khizer/amr_project/install/robile_control_simple:/home/khizer/amr_project/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_slam:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_reach_goal:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_control_simple:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_bringup:/home/khizer/amr_project/amr-ss25-projects-stark_syndicate_m42/install/robile_autonomous:/home/khizer/ros2_ws/install/robile_reach_goal:/home/khizer/ros2_ws/install/robile_control_simple:/home/khizer/ros2_ws/install/robile_bringup:/home/khizer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/khizer/amr_project/build/robile_gazebo
