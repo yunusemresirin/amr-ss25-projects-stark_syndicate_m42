@@ -1,4 +1,4 @@
-# Task 1 – A* + Potential Field Global Planner for Robile
+# Task 2 – A* Global Planner + Potential Field Planner + Monte Carlo Localization
 
 This branch implements an A*-based global planner combined with a Potential Field planner for the Robile platform. It also integrates AMCL-based localization and waypoint following.
 
@@ -25,7 +25,7 @@ colcon build`
 
 Step 1 – Connect to Robile
 
-Connect your PC to the Robile5G Wi-Fi network.
+Connect your PC to the Robile 5G Wi-Fi network.
 
 Establish communication using the official documentation:
 
@@ -84,7 +84,6 @@ Load: robile_slam/config/mapping_config.rviz
 - Click and drag to align the estimated starting pose with the robot’s actual starting point.
 
 - You may need to move the robot slightly until the pose in RViz coincides with the actual robot position.
-
 
 
 ## Step 8 – Set Goal Position
